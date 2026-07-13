@@ -16,3 +16,5 @@ tl.from("#green", {
   scale: 0,
   duration: 1.5,
 });
+
+// second sectiona animaton
