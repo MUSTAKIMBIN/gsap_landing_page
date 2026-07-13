@@ -18,3 +18,16 @@ tl.from("#green", {
 });
 
 // second sectiona animaton
+gsap.to("#second h2", {
+  transform: "translateX(-100%)",
+  scrollTrigger: {
+    trigger: "#second h2",
+    scroller: "body",
+    marker: true,
+    start: "top 0%",
+    end: "top -100%",
+    scrub: true,
+    pin: true,
+    markers: true,
+  },
+});
