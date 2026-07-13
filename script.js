@@ -1,3 +1,4 @@
+// first section animation
 let tl = gsap.timeline();
 tl.from("#red", {
   x: 1000,
